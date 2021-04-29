@@ -1,0 +1,378 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display',;
+}
+
+/* ==========================HEADER SECTION================================ */
+
+
+header{
+
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   color: #626262;
+   font-size: 1rem;
+   
+ 
+}
+
+ul {
+
+   display: flex; 
+   margin-right: 12rem;
+}
+
+span {
+
+    padding: 3.375rem;
+    margin-left: 13rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #000;
+}
+
+ul li {
+    
+    display: flex;
+    padding: 3.375rem 3.125rem;
+    text-transform: uppercase;
+   
+
+}
+
+ul li a {
+
+    text-decoration: none;
+
+}
+
+/* =======================Img-section======================= */
+
+
+.img-section {
+
+    height: 63rem;
+    background-image:  url("img/ome.png");
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+    color: #626262;
+    
+}
+
+.img-edit {
+    text-align: center;
+   
+    
+}
+
+
+.first-post {
+
+    padding-top: 6rem;
+    padding-left: 30rem;
+   
+    height: 65vh;
+   
+}
+
+h2 {
+
+    font-size: 2rem;
+    padding-top: 2rem;
+    
+}
+
+h5 {
+
+    font-size: 1rem;
+    padding-top: 3rem;
+    text-transform: uppercase;
+}
+
+.first-para {
+
+    padding-top: 2rem;
+}
+
+
+
+
+
+/* ==========================life-style============================= */
+
+
+
+.life-style {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;  
+    color: #626262;
+
+
+}
+
+.img-lifestyles {
+
+    margin-left: 2rem;
+    color: #626262;
+}
+
+
+
+.img-lifestyle {
+    color: #626262;
+
+    
+  }
+
+
+
+
+
+
+  .Photo-style {
+
+    padding-top: 9rem;
+    display: flex;
+    justify-content: center;
+    color: #626262;
+    
+    
+
+}
+    
+.Photo-style {
+
+    height: 86vh;  
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* =================Media Quary==================== */
+/* =================Media Quary==================== */
+/* =================Media Quary==================== */
+
+
+
+.news-letter {
+
+    height: 18rem;
+    text-align: center;
+    padding-top: 5rem;
+    background-color: #f0f0f0;
+    color: #626262;
+}
+
+
+
+
+.small-row {
+    text-align: center;
+    padding-top: 5rem;
+    
+    
+}
+
+
+.small-row a {
+
+    text-decoration: none;
+}
+
+
+
+h4 {
+    position: relative;
+    text-align: center;
+    padding-top: 5rem;
+    margin-right: 11rem;
+    
+    }
+    
+
+h4::before {
+
+    content:'';
+    height: 2px;
+    width: 25rem;
+    background-color: #626262;
+   position: absolute;
+   bottom: -30px;
+  
+}
+
+
+ .fa {
+    margin-left: 15rem;
+
+    font-size: 2rem;
+    transform: rotateX(deg);
+
+}
+
+
+
+.load-main {
+
+    padding-top: 10rem;
+    height: 20rem;
+    text-align: center;
+    
+}
+
+
+button {
+
+  width: 10rem;
+  height: 4rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+
+/* ===================footer Section========================== */
+/* ===================footer Section========================== */
+
+
+footer {
+
+    background-color: hsl(0, 0%, 56%);
+    height: 9rem;
+    text-align: center;
+    color: whitesmoke;
+    
+   
+}
+
+.footer-section {
+
+   padding: 1rem 1rem;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+
+
+.copy {
+
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.privacy {
+
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .img-edit {
+        
+    }
+
+
+    .load-main {
+
+        margin-top: 45rem;
+    }
+
+
+    .Photo-style {
+
+        display: grid;
+    }
+
+    .news-letter {
+     
+       margin-top: 70rem;
+
+    }
+
+    .Photo-style {
+
+        padding-top: 50rem;
+    }
+
+        .life-style {
+
+            padding-top: 20rem;
+            display: grid;
+        }
+
+
+        .first-post {
+
+            width: 100%;
+            padding-left: 2rem;
+            height: 45vh;
+            
+        }
+
+
+
+    header {
+      background-color: lightblue;
+      width: 100%;
+
+      
+     
+      
+       
+    
+    }
+
+    header ul {
+
+    
+        display: grid;
+        background-color: lightblue;
+
+        
+       
+    }
+
+    span {
+
+      width: 100%;
+    }
+  }
